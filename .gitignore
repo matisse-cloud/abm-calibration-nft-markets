@@ -1,0 +1,24 @@
+# Data (not redistributed)
+data/*
+!data/README.md
+*.csv
+*.parquet
+
+# Original team notebooks used to build notebooks 02/03 (kept locally only)
+legacy/
+
+# Python / Jupyter
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Secrets
+.env
+*.env
